@@ -1,0 +1,21 @@
+{
+    "name": "githubid/sample",
+    "description": "This is my first Composer package.",
+    "license": "MIT",
+    "keywords": ["sample"],
+    "authors": [
+        {
+            "name": "ddoom",
+            "email": "ddoom@outlook.kr"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "FancyNameSpace\\Animal\\": "src"
+        }
+    }
+}
